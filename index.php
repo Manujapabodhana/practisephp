@@ -6,12 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+
+<form method="get">
+    <input typpe="text" name="userchannel">
+    <BUTTON type="submit">Submit</BUTTON>
+</form>
+
+
 <?php 
 
-echo "manuja";
-echo 150;
-
-print "Hello, World!";
+   $myname= $_GET['userchannel'];
+   echo $myname."is an chanekkk";
+      
 
 
 
